@@ -24,7 +24,7 @@ export default function Home() {
             <Link href="/Components/OrderOnline"><Typography className="text-lg hover:text-xl hover:underline font-bold font-serif">Order online</Typography></Link>
             </Box>
             <Box className="min-w-60 md:w-1/3 border-2 rounded-lg min-h-16 flex justify-center items-center bg-purple hover:bg-white hover:text-brown ">
-            <Link href="/"><Typography className="text-lg hover:text-xl hover:underline font-bold font-serif ">Reservations</Typography></Link>
+            <Link href="/Components/Reservation"><Typography className="text-lg hover:text-xl hover:underline font-bold font-serif ">Reservations</Typography></Link>
             </Box>
           </Box>
         </Box>
