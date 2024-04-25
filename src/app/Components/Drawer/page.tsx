@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -6,11 +7,12 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import Link from 'next/link';
+import { useState } from 'react';
 
 type Anchor =  'right' ;
 
 export default function SideBar() {
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     right: false,
   });
 
